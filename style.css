@@ -1,3 +1,45 @@
 body {
-background-color: lightgreen;
+  background-color: #A0CFD3;
+}
+
+nav {
+  list-style-type: none;
+  background-color: #antiquewhite;
+  width: 50%;
+  left: 0;
+  top: 0;
+  margin: 100; 
+  overflow: hidden;
+  position: fixed; 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px; 
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+h2 {
+  color: #614344;
+  background-color: #D3B99F;
+  letter-spacing: 5px;
+  font-size: 500%;
+  text-shadow: 2px 1px #BAF2D8;
+  font-family:  "Lucida Console";
+ 
+}
+
+p {
+  color: #614344;
+  font-size: 200%;
 }
